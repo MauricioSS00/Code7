@@ -1,0 +1,41 @@
+.filme-details {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: transparent; /* Fundo branco com opacidade */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  /* Estilo para o título do filme */
+  h1 {
+    color: #ffcc00; /* Cor amarela como exemplo */
+    text-align: center;
+  }
+
+  /* Estilo para os parágrafos */
+  p {
+    margin: 10px 0;
+    color: #444; /* Cor mais escura para o texto dentro do componente */
+  }
+
+  /* Estilo para as descrições */
+  .descricao {
+    font-weight: bold;
+    color: #555;
+  }
+
+  /* Estilo para os spans (conteúdo do filme) */
+  span {
+    color: #777;
+  }
+
+  /* Estilo para os links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

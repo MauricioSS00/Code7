@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { DadosFilmeComponent } from './dados-filme/dados-filme.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule
   ],
   declarations: [
-    AppComponent
+    AppComponent,
+    DadosFilmeComponent
   ],
   bootstrap: [AppComponent],
   providers: []
